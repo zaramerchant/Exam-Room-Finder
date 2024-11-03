@@ -10,7 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
   standalone: true,
   imports: [RouterOutlet, HeaderComponent, HomeComponent, HttpClientModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  // styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'exam_loc_finder';
