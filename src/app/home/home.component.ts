@@ -66,7 +66,6 @@ export class HomeComponent{
   }
 
 
-
   checkName(firstName: string, lastName: string, middleInitial?: string) {
 
     if (!firstName || !lastName) return;

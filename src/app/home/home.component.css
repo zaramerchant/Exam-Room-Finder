@@ -67,9 +67,14 @@
     box-sizing: border-box;
 }
 
-#result{
+#result-success{
     margin: 5%;
     color:#461919;
+}
+
+#result-error{
+  margin: 5%;
+  color:#461919;
 }
 
 button{

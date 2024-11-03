@@ -1,3 +1,4 @@
+<main>
 <div class="main">
     <h2>Fill in your first name, last name, and middle initial!</h2>
   
@@ -50,13 +51,13 @@
       Find
     </button>
   
-    <p id="result" *ngIf="locationFound !== null">
+    <p id="result-success" *ngIf="locationFound !== null">
       You entered {{ fullNamePrint }}
       <br />
       Location: {{ locationFound }}
     </p>
-    <p id="result" *ngIf="locationFound === null">
+    <p id="result-error" *ngIf="locationFound === null">
       No location found, check for errors.
     </p>
   </div>
-  
+</main>
