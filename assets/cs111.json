@@ -1,0 +1,51 @@
+[{ 
+    "code": "AB 2125", 
+    "start": "ABBASI", 
+    "end": "BELTRAN" 
+},
+{ 
+    "code": "AB 2225", 
+    "start": "BENJAMIN", 
+    "end": "CHUNG" 
+},
+{   
+    "code": "AB 2400", 
+    "start": "CLEMENTI", 
+    "end": "GAMBINO" 
+},
+{ 
+    "code": "SC 123", 
+    "start": "GANAPATHYAPPAN", 
+    "end": "KHAN" 
+},  
+{ 
+    "code": "VD 211", 
+    "start": "KHANDALKAR", 
+    "end": "LI, YISHI" 
+},
+{ 
+    "code": "VH 105", 
+    "start": "LI, ZHENGZE", 
+    "end": "MILLER, DYLAN" 
+},
+{ 
+    "code": "ARC 103", 
+    "start": "MILLER, ECHO", 
+    "end": "RIVERA" 
+},
+{ 
+    "code": "PHY 001", 
+    "start": "ROBAYO", 
+    "end": "SUBRAMANYA" 
+},
+{
+    "code": "RWH 105", 
+    "start": "SUDOL", 
+    "end": "VUPPU"
+},
+{
+    "code": "TIL 232", 
+    "start": "VYAS", 
+    "end": "ZHUANG"
+}
+]
