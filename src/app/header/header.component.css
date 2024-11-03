@@ -1,0 +1,23 @@
+header{
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: flex-start; /* centers vertically */
+  }
+
+.exam-finder {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700; 
+    font-size: 40px;
+    display: flex;
+    margin-top: 20px;
+    color: white;
+  }
+
+a:hover{
+    text-decoration: underline;
+}

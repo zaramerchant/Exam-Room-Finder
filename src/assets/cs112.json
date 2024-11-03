@@ -1,0 +1,41 @@
+[{ 
+    "code": "AB 2125", 
+    "start": "ABBASSI", 
+    "end": "DESAI, EESHA C" 
+},
+{ 
+    "code": "AB 2160", 
+    "start": "DESAI, PRATHAM N", 
+    "end": "KRISHNASWAMY" 
+},
+{   
+    "code": "CI 212", 
+    "start": "KUMAR", 
+    "end": "MAHER" 
+},
+{ 
+    "code": "FH B3", 
+    "start": "MAHIDA", 
+    "end": "MINGGIA" 
+},  
+{ 
+    "code": "FH B5", 
+    "start": "MINHAS CASTILLO", 
+    "end": "NGUYEN, ANDRE M" 
+},
+{ 
+    "code": "SC 135", 
+    "start": "NGUYEN, ANTHONY", 
+    "end": "TABETI" 
+},
+{ 
+    "code": "SEC 209", 
+    "start": "TAKAHASHI", 
+    "end": "WANG, HAOKUAN" 
+},
+{ 
+    "code": "CA A4", 
+    "start": "WANG, KEVIN", 
+    "end": "ZIRVI" 
+}
+]
