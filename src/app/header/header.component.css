@@ -5,8 +5,8 @@ header{
 
 .container {
     display: flex;
-    justify-content: center; /* centers horizontally */
-    align-items: flex-start; /* centers vertically */
+    justify-content: center; 
+    align-items: flex-start; 
   }
 
 .exam-finder {
