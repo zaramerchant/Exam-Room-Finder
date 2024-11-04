@@ -88,10 +88,22 @@ export class HomeComponent{
     this.locationFound = null; 
 
     for (let i = 0; i < this.dataset.length; i++) {
-      if (this.fullName.localeCompare(this.dataset[i].end, 'en', { ignorePunctuation: true }) < 1) {
-        this.locationFound = this.dataset[i].code;
-        break; 
-      }
+      // if (this.fullName.localeCompare(this.dataset[i].end, 'en', { ignorePunctuation: true }) < 1) {
+      //   this.locationFound = this.dataset[i].code;
+      //   break; 
+      // }
+
+      if (this.dataset[i].end.includes(',')) {
+        if (this.fullName.localeCompare(this.dataset[i].end, 'en', { ignorePunctuation: true }) < 1) {
+            this.locationFound = this.dataset[i].code;
+            break;
+        }} 
+        else {
+        if (lastName.localeCompare(this.dataset[i].end, 'en', { ignorePunctuation: true }) < 1) {
+            this.locationFound = this.dataset[i].code;
+            break;
+        }
+    }
     }
   
     //fullName.localeCompare(this.dataset[0].end, , ignorePunctuation) < 1
