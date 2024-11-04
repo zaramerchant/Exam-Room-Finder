@@ -4,81 +4,101 @@
 
 #selection{
   margin-left: 5%;
+  color: #862e2e;
+  margin-bottom: 5%;
+  font-weight:bold;
 }
 
+
 .form-container {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.8); 
-    border-radius: 10px;
-  }
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#choosing{
+  align-items: center;
+  justify-content: center;
+  color:#862e2e;
+  margin-bottom: 5%;
+}
   
   .form-group {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: left;
     margin-bottom: 15px;
   }
 
   label[for="firstNameInput"] {
-    color: white; 
+    display: flex;
+    color: #862e2e; 
     font-size: 16px;
-    margin-left: 5%;
+    margin-left: 12%;
   }
 
   label[for="LastNameInput"] {
-    color: white; 
+    display: flex;
+    align-items: left;
+    color: #862e2e; 
     font-size: 16px;
-    margin-left: 5%;
+    margin-left: 12%;
   }
 
   label[for="MiddleInitialInput"] {
-    color: white; 
+    display: flex;
+    color: #862e2e; 
     font-size: 16px;
-    margin-left: 5%;
+    margin-left: 12%;
   }
 
-#firstNameInput{
-    margin-left: 5%;
-    margin-top: 5px;
-    width: 100%;                 
-    max-width: 200px;
-    padding: 10px 18px;
-    box-sizing: border-box;
+#firstNameInput, #LastNameInput, #MiddleInitialInput{
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  margin-top: 5px;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 18px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-family: 'Inconsolata', monospace;
+  transition: all 0.3s ease;
 }
 
-#LastNameInput{
-    margin-left: 5%;
-    margin-top: 5px;
-    width: 100%;                 
-    max-width: 200px;
-    padding: 10px 18px;
-    box-sizing: border-box;
+input{
+  align-items: center;
+  justify-content: center;
 }
 
-#MiddleInitialInput{
-    margin-left: 5%;
-    margin-top: 5px;
-    width: 100%;              
-    max-width: 200px;
-    padding: 10px 18px;
-    box-sizing: border-box;
+input:focus {
+  outline: none;
+  border-color: #9c2424;
+  box-shadow: 0 0 5px rgba(156, 36, 36, 0.5);
 }
 
-#result-success{
-    margin: 5%;
-    color:#461919;
+#result{
+  display: flex;
+  margin-top: 2%;
+  justify-content: center;
 }
 
-#result-error{
-  margin: 5%;
-  color:#461919;
+#result-success, #result-error {
+  justify-content: center;
+  align-items: center;
+  color: #461919;
 }
 
 button{
-    margin-left: 5%;
+    margin: 5%;
 }
 
 button.btn-primary {
@@ -96,4 +116,5 @@ button.btn-primary {
   
   button.btn-primary:hover {
     background-color: #862e2e;
+    transform: scale(1.05); 
   }

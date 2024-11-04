@@ -2,17 +2,23 @@
 <div class="main">
     <h2>Fill in your first name, last name, and middle initial!</h2>
   
-    <label for="course" style="margin-left: 5%">Choose a course:</label>
+    <div class="form-container">
+      <div id="choosing">
+    <label for="course" style="margin-left: 5%">Choose a course:  </label>
     <select name="course" id="course" [(ngModel)]="selectedCourse" (change)="onCourseChange()">
       <option value="cs111">CS111</option>
       <option value="cs112">CS112</option>
     </select>
-    <br>
+  </div>
+ 
 
     <p id="selection" *ngIf="selectedCourse">You selected {{selectedCourse}}</p>
 
-    <div class="form-group">
+    
+
+    
       <label for="firstNameInput">First Name</label>
+      <div class="form-group">
       <input
         #firstName
         placeholder="John"
@@ -22,8 +28,9 @@
       />
     </div>
   
-    <div class="form-group">
+    
       <label for="MiddleInitialInput">Middle Initial (optional)</label>
+      <div class="form-group">
       <input
         #middleInitial
         placeholder="F"
@@ -32,9 +39,9 @@
         id="MiddleInitialInput"
       />
     </div>
-  
-    <div class="form-group">
+    
       <label for="LastNameInput">Last Name</label>
+      <div class="form-group">
       <input
         #lastName
         placeholder="Doe"
@@ -50,7 +57,9 @@
     >
       Find
     </button>
-  
+  </div>
+
+  <div id="result">
     <p id="result-success" *ngIf="locationFound !== null">
       You entered {{ fullNamePrint }}
       <br />
@@ -59,5 +68,7 @@
     <p id="result-error" *ngIf="locationFound === null">
       No location found, check for errors.
     </p>
+  </div>
+
   </div>
 </main>
